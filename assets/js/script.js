@@ -349,7 +349,7 @@ setInterval(() => {
     let randomNumber = Math.floor(Math.random() * imgsArray.length);
 
     // Change Background Image Url 
-    imagesSrc.src = `../../assets/images/${imgsArray[randomNumber]}` ;
+    imagesSrc.src = `./assets/images/${imgsArray[randomNumber]}` ;
 
 }, 10000);
 
